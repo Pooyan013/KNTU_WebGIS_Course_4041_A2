@@ -66,7 +66,6 @@ This project demonstrates an interactive map using the **OpenLayers** library wi
 1. Clone or download the repository.
 3. Insert your LocationIQ API key in `config.js`:
 
-```js
 const API_KEY = "YOUR_LOCATIONIQ_KEY";
 
 ## ScreenShots
