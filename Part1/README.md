@@ -74,16 +74,18 @@ const API_KEY = "YOUR_LOCATIONIQ_KEY";
 ![Home](../pics/1.png)
 
 ### 2.SearchResult
-![Search](..//pics/search.png)
+![Search](../pics/search.png)
 
 ### 3.API Error
-![Error](..//pics/error.png)
+![Error](../pics/error.png)
 
 ## Folder Structure
+```
 part1/
 ├─ index.html        → Main HTML file
 ├─ static/
 │   └─ css/
 │       └─ style.css → Styles for map and search bar
 ├─ script.js         → JavaScript for map and geocoding
-
+├─ README.md         → README PartOne 
+```
