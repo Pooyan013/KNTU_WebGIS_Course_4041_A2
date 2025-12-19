@@ -52,12 +52,11 @@ This part extends the interactive map by adding **weather data display** functio
 const API_KEY = "YOUR_OPENWEATHERMAP_KEY";
 const API_KEY_Loc "YOUR_LOCATIONIQ_KEY"
 ```
-| API Name       | Website                                                          | Free Tier / Requests | Paid Tier      | Rate Limits  | Notes                           |
-| -------------- | ---------------------------------------------------------------- | -------------------- | -------------- | ------------ | ------------------------------- |
-| OpenWeatherMap | [https://openweathermap.org/api](https://openweathermap.org/api) | 1,000 calls/day      | From $40/month | 60 calls/min | Used in project, good free tier |
-| WeatherAPI     | [https://www.weatherapi.com/](https://www.weatherapi.com/)       | 1,000 calls/month    | From $10/month | 1 call/sec   | Reliable, global coverage       |
-| Weatherbit     | [https://www.weatherbit.io/api](https://www.weatherbit.io/api)   | 500 calls/day        | From $35/month | 50 calls/min | Accurate forecasts, some limits |
-
+| API Name       | Website                                                    | Free Tier / Requests | Paid Tier      | Rate Limits  | Notes                           |
+| -------------- | ---------------------------------------------------------- | -------------------- | -------------- | ------------ | ------------------------------- |
+| OpenWeatherMap | [openweathermap.org/api](https://openweathermap.org/api)  | 1,000 calls/day      | From $40/month | 10,000,000 calls/month | Chosen for simplicity, global weather data |
+| WeatherAPI     | [weatherapi.com](https://www.weatherapi.com/)             | 1,000,000 calls/month    | From $25/month | 1 call/sec   | Reliable, global coverage       |
+| Weatherbit     | [weatherbit.io/api](https://www.weatherbit.io/api)        | 50 calls/day        | From $45/month | 50 calls/min | Accurate forecasts, some limits |
 
 **Chosen API:** **OpenWeatherMap**  
 **Reason:** Free tier sufficient for assignment, simple integration, reliable global weather data. and in the I used it alot you can check https://github.com/Pooyan013/CompareWeather

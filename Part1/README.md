@@ -50,11 +50,12 @@ This project demonstrates an interactive map using the **OpenLayers** library wi
 
 ## Geocoding APIs Research & Comparison
 
-| API          | Free Tier                  | Paid Tier             | Rate Limit         | Notes                                  |
-|--------------|---------------------------|---------------------|-----------------|----------------------------------------|
-| MapQuest     | 15,000 requests/month      | $0.25 / 1,000 req   | 1 request/sec    | First considered, but required identity/financial verification |
-| LocationIQ   | 5,000 requests/month       | $4 / 1,000 requests | 1 request/sec    | Fast, worldwide coverage, easy to use |
-| OpenCage     | 2,500 requests/day         | $50/month            | 1 request/sec    | International coverage, slower free tier |
+| API          | Website                          | Free Tier / Requests | Paid Tier        | Rate Limit     | Notes                                              |
+|--------------|---------------------------------|--------------------|----------------|---------------|--------------------------------------------------|
+| MapQuest     | [mapquest.com](https://www.mapquest.com/) | 15,000/month       | $119,75,000 transactions per month | 1 req/sec      | Initially considered but required account setup |
+| LocationIQ   | [locationiq.com](https://locationiq.com/) | 5000 requests /day      | $$45/10,000 map views /day   | 15 requests /second      | Chosen for simplicity and free tier              |
+| OpenCage     | [opencagedata.com](https://opencagedata.com/) | 2,500/day          | $45/month       | 15 requests/sec      | International coverage                             |
+
 
 **Chosen API:** **LocationIQ**  
 **Reason:** Enough free tier for testing, fast response, easy integration with JS, worldwide coverage.It offers a sufficient free tier for testing, does not require heavy account setup like MapQuest, provides fast responses, and covers worldwide locations.

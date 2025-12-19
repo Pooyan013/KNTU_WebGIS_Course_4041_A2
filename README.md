@@ -29,9 +29,9 @@ This project demonstrates an **interactive web map** with two main functionaliti
 ### Geocoding APIs
 | API          | Website                          | Free Tier / Requests | Paid Tier        | Rate Limit     | Notes                                              |
 |--------------|---------------------------------|--------------------|----------------|---------------|--------------------------------------------------|
-| MapQuest     | [mapquest.com](https://www.mapquest.com/) | 15,000/month       | $0.25/1,000 req | 1 req/sec      | Initially considered but required account setup |
-| LocationIQ   | [locationiq.com](https://locationiq.com/) | 5,000/month        | $4/1,000 req    | 1 req/sec      | Chosen for simplicity and free tier              |
-| OpenCage     | [opencagedata.com](https://opencagedata.com/) | 2,500/day          | $50/month       | 1 req/sec      | International coverage                             |
+| MapQuest     | [mapquest.com](https://www.mapquest.com/) | 15,000/month       | $119,75,000 transactions per month | 1 req/sec      | Initially considered but required account setup |
+| LocationIQ   | [locationiq.com](https://locationiq.com/) | 5000 requests /day      | $$45/10,000 map views /day   | 15 requests /second      | Chosen for simplicity and free tier              |
+| OpenCage     | [opencagedata.com](https://opencagedata.com/) | 2,500/day          | $45/month       | 15 requests/sec      | International coverage                             |
 
 **Chosen API:** **LocationIQ**  
 **Reason:** Easy integration, sufficient free tier, worldwide coverage, no heavy account setup.
@@ -39,9 +39,9 @@ This project demonstrates an **interactive web map** with two main functionaliti
 ### Weather APIs
 | API Name       | Website                                                    | Free Tier / Requests | Paid Tier      | Rate Limits  | Notes                           |
 | -------------- | ---------------------------------------------------------- | -------------------- | -------------- | ------------ | ------------------------------- |
-| OpenWeatherMap | [openweathermap.org/api](https://openweathermap.org/api)  | 1,000 calls/day      | From $40/month | 60 calls/min | Chosen for simplicity, global weather data |
-| WeatherAPI     | [weatherapi.com](https://www.weatherapi.com/)             | 1,000 calls/month    | From $10/month | 1 call/sec   | Reliable, global coverage       |
-| Weatherbit     | [weatherbit.io/api](https://www.weatherbit.io/api)        | 500 calls/day        | From $35/month | 50 calls/min | Accurate forecasts, some limits |
+| OpenWeatherMap | [openweathermap.org/api](https://openweathermap.org/api)  | 1,000 calls/day      | From $40/month | 10,000,000 calls/month | Chosen for simplicity, global weather data |
+| WeatherAPI     | [weatherapi.com](https://www.weatherapi.com/)             | 1,000,000 calls/month    | From $25/month | 1 call/sec   | Reliable, global coverage       |
+| Weatherbit     | [weatherbit.io/api](https://www.weatherbit.io/api)        | 50 calls/day        | From $45/month | 50 calls/min | Accurate forecasts, some limits |
 
 **Chosen API:** **OpenWeatherMap**  
 **Reason:** Free tier sufficient for assignment, simple integration, reliable global weather data.
