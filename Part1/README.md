@@ -71,16 +71,15 @@ const API_KEY = "YOUR_LOCATIONIQ_KEY";
 ## ScreenShots
 
 ### 1.HomePage
-![Home](../KNTU_WebGIS_Course_4041_A2/pics/1.png)
+![Home](../pics/1.png)
 
 ### 2.SearchResult
-![Search](../KNTU_WebGIS_Course_4041_A2/pics/search.png)
+![Search](..//pics/search.png)
 
 ### 3.API Error
-![Error](../KNTU_WebGIS_Course_4041_A2/pics/error.png)
+![Error](..//pics/error.png)
 
 ## Folder Structure
-![]
 part1/
 ├─ index.html        → Main HTML file
 ├─ static/
