@@ -77,7 +77,7 @@ const API_KEY = "YOUR_LOCATIONIQ_KEY";
 ![Search](../pics/search.png)
 
 ### 3.API Error
-![Error](../pics/error.png)
+![Error](../pics/Error.png)
 
 ## Folder Structure
 ```
